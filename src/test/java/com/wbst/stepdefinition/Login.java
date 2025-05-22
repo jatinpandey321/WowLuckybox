@@ -57,7 +57,7 @@ public class Login  extends Helperclass{
 
 			File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			String targetPath = System.getProperty("user.dir") + "/target/screenshots/homePageScreenshot.png";
-			FileUtils.copyFile(screenshot, new File(targetPath));
+			FileUtils.copyFile(screenshot, new File(targetPath));//changes
 
 		}
 	}
